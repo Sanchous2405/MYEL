@@ -1,0 +1,57 @@
+.possible {
+    display: flex;
+    flex-direction: column;
+    padding-top: 127px;
+    width: 1272px;
+    margin: 0 auto;
+}
+.together {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 60px;
+    width: 630px;
+   
+}
+.scope {
+    margin: 0 auto;
+   width: 1360px;
+    padding-top: 63px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.number {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    padding-right: 402px;
+    padding-top: 68px;
+}
+.description {
+    width: 350px;
+    padding-top: 72px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    /* or 125% */
+}
+.learn{
+    padding-top: 55px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 125% */
+
+    text-transform: uppercase;
+}

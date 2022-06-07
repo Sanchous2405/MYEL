@@ -1,0 +1,34 @@
+    /* GLOBAL */
+    
+    :root {
+        --black: #000;
+        --white: #fff;
+        --grey: #212A2F;
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #F1F1F1;
+
+    }
+    .top{
+        padding-left: 1390px;
+    }
+@import '_header.scss';
+@import '_gallery.scss';
+@import '_character.scss';
+@import '_arrivals.scss';
+@import '_mine.scss';
+@import '_categories.scss';
+@import '_possible.scss';
+@import '_news.scss';
+@import '_footer.scss';
+

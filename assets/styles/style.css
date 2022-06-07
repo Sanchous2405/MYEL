@@ -1,0 +1,371 @@
+/* GLOBAL */
+:root {
+  --black: #000;
+  --white: #fff;
+  --grey: #212A2F;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F1F1F1;
+}
+
+.top {
+  padding-left: 1390px;
+}
+
+.header {
+  width: 100%;
+  height: 88px;
+  display: flex;
+  flex-direction: row;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.shop {
+  padding: 35px 261px 35px 30px;
+  color: #000000;
+}
+
+.collection {
+  padding: 35px 202px 35px 0px;
+  color: #000000;
+}
+
+.logo {
+  padding: 25px 0px 25px 0px;
+}
+
+.about {
+  padding: 35px 228px 35px 115px;
+  color: #000000;
+}
+
+.login {
+  padding: 35px 27px 35px 0px;
+  color: #000000;
+}
+
+.fr {
+  padding: 35px 5px 35px 0px;
+  color: #000000;
+}
+
+.en {
+  padding: 35px 121px 35px 0px;
+  color: #000000;
+}
+
+.gallery {
+  width: 100%;
+  height: 630px;
+  display: flex;
+  flex-direction: row;
+}
+
+.modern {
+  position: absolute;
+  padding: 579px 289px 33px 32px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
+.stack {
+  position: absolute;
+  padding: 579px 289px 33px 987px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
+.character {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.jewerly {
+  padding-left: 64px;
+  display: flex;
+  flex-direction: row;
+}
+
+.made {
+  padding-top: 116px;
+  width: 892px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 64px;
+  /* or 100% */
+  color: #000000;
+}
+
+.myel {
+  padding-top: 135px;
+  padding-left: 314px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height, or 125% */
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.aspect {
+  padding-top: 31px;
+  padding-left: 64px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  /* identical to box height, or 125% */
+  color: #000000;
+}
+
+.arrivals {
+  width: 100%;
+  height: 728px;
+}
+
+.vector {
+  width: 100%;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.new {
+  padding: 0px 1000px 0px 64px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height, or 125% */
+  color: #000000;
+}
+
+.choose {
+  width: 1207px;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.assortment {
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.cad {
+  position: absolute;
+  padding: 490px 1200px 0px 28px;
+}
+
+.now {
+  position: absolute;
+  padding: 490px 399px 0px 28px;
+}
+
+.mine {
+  display: flex;
+  flex-direction: row;
+  padding-top: 182px;
+}
+
+.tshirt {
+  position: absolute;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 60px;
+  padding: 47px 30px 829px 770px;
+}
+
+.categories {
+  display: flex;
+  flex-direction: column;
+  padding-top: 43px;
+  margin: 0 auto;
+}
+
+.browse {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.range {
+  display: flex;
+  flex-direction: row;
+  padding-top: 16px;
+  width: 1320px;
+  justify-content: space-between;
+}
+
+.possible {
+  display: flex;
+  flex-direction: column;
+  padding-top: 127px;
+  width: 1272px;
+  margin: 0 auto;
+}
+
+.together {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 43px;
+  line-height: 60px;
+  width: 630px;
+}
+
+.scope {
+  margin: 0 auto;
+  width: 1360px;
+  padding-top: 63px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.number {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 45px;
+  padding-right: 402px;
+  padding-top: 68px;
+}
+
+.description {
+  width: 350px;
+  padding-top: 72px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  /* or 125% */
+}
+
+.learn {
+  padding-top: 55px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height, or 125% */
+  text-transform: uppercase;
+}
+
+.news {
+  padding-top: 90px;
+}
+
+.footer {
+  display: flex;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+}
+
+.best {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: black;
+  padding-left: 240px;
+}
+
+.by {
+  padding-top: 100px;
+  padding-bottom: 21px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: black;
+}
+
+.necklaces {
+  padding-bottom: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: black;
+}
+
+.vis {
+  padding-top: 100px;
+  padding-bottom: 21px;
+  padding-right: 1310px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: black;
+}
+
+.visit {
+  padding-left: 142px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: black;
+}/*# sourceMappingURL=style.css.map */
